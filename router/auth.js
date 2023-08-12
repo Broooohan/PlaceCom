@@ -12,10 +12,6 @@ require("../db/connection");
 const User = require("../model/userSchema");
 const User2 = require("../model/userSchema2");
 
-router.get("/", (req, res) => {
-  res.send("Hello world from auth.js");
-});
-
 //companysignup
 router.post("/companysignup", async(req, res) => {
 
